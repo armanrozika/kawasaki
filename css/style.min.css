@@ -1004,9 +1004,7 @@ a {
   color: #ffffff; }
   @media (max-width: 768px) {
     .text {
-      font-size: 12px; 
-    margin-top: -30vw;
-    } }
+      font-size: 16px; } }
   .text--white {
     color: #ffffff; }
   .text--black {
@@ -1651,7 +1649,7 @@ a {
   margin-top: -14vw; }
   @media (max-width: 768px) {
     .text {
-      margin-top: -30vw; } }
+      margin-top: -69vw; } }
 
 .content__title {
   font-family: "bebas_neueregular";
@@ -1849,45 +1847,28 @@ a {
     top: 42%;
     right: 10%; }
     @media (max-width: 768px) {
-      .caption__label p{
-        font-size: 10px;
-        background: rgba(0,0,0,0.5);
-      }
       .caption__label--1 {
-        top: 14%;
+        top: 22%;
         right: 2%; } }
   .caption__label--2 {
     top: 28%;
     right: 13%; }
     @media (max-width: 768px) {
       .caption__label--2 {
-        top: 26%;
-        right: 6%; }
-      .caption__label--2 {
-        display: block; } }
+        display: none; } }
   .caption__label--3 {
     top: 58%;
     right: 13%; }
     @media (max-width: 768px) {
       .caption__label--3 {
-        top: 38%;
-        right: 13%; }
-      .caption__label--3 {
-        display: block; } }
+        display: none; } }
   .caption__label--4 {
     bottom: 10%;
     left: 13%;
     text-align: right; }
     @media (max-width: 768px) {
       .caption__label--4 {
-        bottom: 19%;
-        left: 13%;
-        text-align: right; }
-      .caption__label{
-        width: 280px;
-      }
-      .caption__label--4 {
-        display: block; } }
+        display: none; } }
 
 .cover {
   position: relative;
@@ -2131,7 +2112,7 @@ a {
   @media (max-width: 768px) {
     .scene23 .arman-center {
       width: 100%;
-      left: 66%;
+      left: 50%;
       padding-left: 10px; } }
   .scene23 .arman-center img:nth-child(1) {
     width: 100%;
@@ -2214,9 +2195,8 @@ a {
     @media (max-width: 768px) {
       .scene23 .arman-modal > img {
         right: 12px;
-        top: 50px;
-        z-index: 30000000;
-        width: 20px; } }
+        top: 12px;
+        width: 30px; } }
   .scene23 .arman-modal .modal-tengah {
     width: 60%;
     position: absolute;
@@ -3185,36 +3165,3 @@ footer {
   .back-top img {
     width: 20px; }
 /*# sourceMappingURL=style.min.css.map */
-
-
-
-body{
-  overflow: hidden;
-}
-
-@media (max-width: 768px){
-  .hs{
-    display: none;
-  }
-
-  /* .caption__label--4 {
-    bottom: 19%;
-    right: 0%;
-    text-align: left;
-}
-.caption__label--3 {
-  top: 38%;
-  right: 0%;
-}
-.caption__label--2 {
-  top: 26%;
-  right: 0%;
-}
-
-.caption__label--1 {
-  top: 14%;
-  right: 0%;
-} */
-
-
-}
